@@ -143,14 +143,18 @@ section div h3 {
     font-size: 16px;
 }
 /* Hero Style End */
+.flex-row {
+    display: flex;
+}
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -162,9 +166,6 @@ section div h3 {
 }
 
 /* What we do style start */
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -172,12 +173,12 @@ section div h3 {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* What we do style end */
 
 /* What you do style start */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -205,10 +206,6 @@ section div h3 {
     font-size: 38px;
 }
 /* What you do style end */
-
-.trainers {
-    text-align: center;
-}
 
 .trainer {
     width: 900px;
@@ -255,7 +252,6 @@ section div h3 {
 
 /* Reach out styles start */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
